@@ -1,0 +1,79 @@
+/* style.css */
+.hook1 {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.student-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px;
+    border: 1px solid #2ce4f1;
+    border-radius: 6px !important;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.student-item:hover {
+    background-color: #b7f8fa93;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.student-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    flex: 1;
+}
+.student-name.active{
+    text-decoration: line-through;
+}
+
+
+.student-checkbox {
+    margin-right: 15px;
+    color: #2ce4f1 !important;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #ff5c5c;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+button:hover {
+    color: #ff1c1c;
+}
+
+button i {
+    font-size: 18px;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container .check-all{
+    background-color: #198754;
+    padding: 7px 18px;
+    border-radius: 6px;
+    margin-right: 5px;
+    color: #fff;
+}
+.footer-container .check-all label {
+    margin-right: 10px;
+}
